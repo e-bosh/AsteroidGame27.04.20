@@ -51,6 +51,7 @@ namespace AsteroidGame
         {
             foreach (BaseObject obj in _objs)
                 obj.Update();
+
         }
         private static void Timer_Tick(object sender, EventArgs e)
         {
